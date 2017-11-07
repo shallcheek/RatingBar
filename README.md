@@ -30,6 +30,7 @@ show demo activity_main.xml
         app:rating_star_width="30dp"
         app:rating_start_count="3" />
 ```
+
 ## Preview
 
 <img src="./img/1.png" width="40%"><img>
