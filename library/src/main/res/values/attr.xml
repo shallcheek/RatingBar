@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RatingBar">
+        <attr name="rating_start_count" format="integer" />
+        <attr name="rating_star_width" format="dimension" />
+        <attr name="rating_star_height" format="dimension" />
+        <attr name="rating_star_margin" format="dimension" />
+        <attr name="rating_star_src" format="reference" />
+        <attr name="rating_star_empty" format="reference" />
+        <attr name="rating_star_half" format="reference" />
+        <attr name="rating_star_color" format="color" />
+        <attr name="rating_max_count" format="integer" />
+        <attr name="rating_star_empty_color" format="color" />
+        <attr name="rating_star_tint" format="boolean" />
+        <attr name="rating_flag">
+            <enum name="FIVE" value="5" />
+            <enum name="TEN" value="10" />
+        </attr>
+
+    </declare-styleable>
+</resources>

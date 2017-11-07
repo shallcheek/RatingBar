@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.chaek.myapplication.MainActivity">
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:rating_star_height="20dp"
+        app:rating_star_width="20dp" />
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:rating_flag="TEN"
+        app:rating_star_color="#f9d02f"
+        app:rating_star_empty="@drawable/star3"
+        app:rating_star_empty_color="#c2c0c0"
+        app:rating_star_height="30dp"
+        app:rating_star_src="@drawable/star"
+        app:rating_star_width="30dp"
+        app:rating_start_count="5" />
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        app:rating_flag="FIVE"
+        app:rating_star_color="#f21058"
+        app:rating_star_empty_color="#8e7d7d"
+        app:rating_star_height="30dp"
+        app:rating_star_margin="5dp"
+        app:rating_star_src="@drawable/star"
+        app:rating_star_width="30dp"
+        app:rating_start_count="3" />
+
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        app:rating_flag="TEN"
+        app:rating_star_color="#c91871"
+        app:rating_star_empty_color="#b4b2b2"
+        app:rating_star_height="30dp"
+        app:rating_star_src="@drawable/star"
+        app:rating_star_width="30dp"
+        app:rating_start_count="1" />
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        app:rating_flag="FIVE"
+        app:rating_star_color="#77e43c"
+        app:rating_star_empty="@drawable/star3"
+        app:rating_star_empty_color="#d21a1a"
+        app:rating_star_height="30dp"
+        app:rating_star_margin="22dp"
+        app:rating_star_src="@drawable/star"
+        app:rating_star_tint="true"
+        app:rating_star_width="30dp"
+        app:rating_start_count="1" />
+
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        app:rating_flag="TEN"
+        app:rating_star_color="#d967a0"
+        app:rating_star_empty_color="#a1a0a0"
+        app:rating_star_height="30dp"
+        app:rating_star_margin="1dp"
+        app:rating_star_src="@drawable/star5"
+        app:rating_star_width="30dp"
+        app:rating_start_count="5" />
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        app:rating_flag="FIVE"
+        app:rating_star_color="#d967a0"
+        app:rating_star_empty="@drawable/star4"
+        app:rating_star_empty_color="#a1a0a0"
+        app:rating_star_height="30dp"
+        app:rating_star_margin="1dp"
+        app:rating_star_src="@drawable/star5"
+        app:rating_star_width="30dp"
+        app:rating_start_count="3" />
+
+    <com.chaek.android.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        app:rating_flag="TEN"
+        app:rating_star_color="#fdd71b"
+        app:rating_star_empty="@drawable/star4"
+        app:rating_star_empty_color="#a1a0a0"
+        app:rating_star_height="30dp"
+        app:rating_star_margin="1dp"
+        app:rating_star_src="@drawable/star5"
+        app:rating_star_tint="true"
+        app:rating_star_width="30dp"
+        app:rating_start_count="3" />
+</LinearLayout>
